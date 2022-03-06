@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  width: 550px;
+  height: 550px;
+  background-color: #1f2937;
+}
+
+.header {
+  margin: 118px 0 0px 52px;
+}
+
+.header h1 {
+  width: 354px;
+  height: 80px;
+  font-family: Karla;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 40px;
+  line-height: 40px;
+  letter-spacing: -0.025em;
+  color: #ffffff;
+}
+
+.header span {
+  display: block;
+  color: #10b981;
+}
+
+.header p {
+  width: 372px;
+  height: 28px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 28px;
+  color: #d5d4d8;
+  margin-bottom: 51px;
+}
+
+button {
+  width: 223px;
+  height: 42px;
+  padding: 9px 17px 9px 15px;
+  background: #10b981;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+  border-radius: 6px;
+  color: white;
+  margin-bottom: 35px;
+}
+
+.line-area {
+  margin: 0 52px 35px 52px;
+  border: 1px solid #2f3e53;
+}
+
+.display-area1 input {
+  width: 211px;
+  height: 39px;
+  background: #273549;
+  border-radius: 6px;
+  color: #10b981;
+  text-align: center;
+  margin-bottom: 27px;
+}
+
+#pass1,
+#pass3 {
+  margin: 0 24px 0 52px;
+}
+
+.display-area2 input {
+  width: 211px;
+  height: 39px;
+  background: #273549;
+  border-radius: 6px;
+  margin-bottom: 46px;
+  color: #10b981;
+  text-align: center;
+}
